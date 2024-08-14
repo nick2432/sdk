@@ -1,0 +1,15 @@
+<resources>
+    <declare-styleable name="DateTimePickerComponent">
+        <attr name="dateButtonText" format="string" />
+        <attr name="timeButtonText" format="string" />
+        <attr name="selectedTextColor" format="color" />
+        <attr name="dateButtonBackgroundColor" format="color" />  <!-- Renamed to avoid conflict -->
+        <attr name="timeButtonBackgroundColor" format="color" />  <!-- Renamed to avoid conflict -->
+    </declare-styleable>
+
+    <declare-styleable name="ScheduleReminderButton">
+        <attr name="buttonText" format="string" />
+        <attr name="buttonTextColor" format="color" />
+        <attr name="buttonBackgroundColor" format="color" />
+    </declare-styleable>
+</resources>
